@@ -1,16 +1,17 @@
 # journey_builder
-mongo based journey builder
+mongo based journey builder built on spring boot
 
-##Steps :
+## Swagger
+http://localhost:8080/swagger-ui.html
 
-###Fork
+## Steps
+
+### Fork
 
 Always fork into your own repository to make changes. https://help.github.com/articles/fork-a-repo/
-
 ╰─$ git clone git@github.net:name/project.git
 
-
-###Sync your fork
+### Sync your fork
 
 Typically you will have changes committed to the master/branch while you are working on your own repo. Ensure that your fork is always up-to-date (preferably during the start of your day) with changes merged by others. This will ensure you can keep merge conflicts to a minimum.
 
@@ -26,7 +27,7 @@ upstream	git@github.net:name/project (fetch)
 upstream	git@github.net:name/project (push)
 * `git fetch upstream` should now fetch the latest from your master/branch (upstream) and automatically merge in case of non-conflicts.
 
-###Commit
+### Commit
 
 Commit to your local repo and push the changes to github.
 
