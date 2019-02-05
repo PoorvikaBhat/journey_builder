@@ -21,7 +21,8 @@ public class JourneyController {
 
     @Autowired
     private JourneyService journeyService;
-    
+
+
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<Journey> getAllJourneys() {
         return journeyRepository.findAll();
