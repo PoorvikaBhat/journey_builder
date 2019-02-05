@@ -32,14 +32,14 @@ origin	https://github.com/veeseekay/journey_builder.git (push)
 upstream	https://github.com/veeseekay/journey_builder.git (fetch)  
 upstream	https://github.com/veeseekay/journey_builder.git (push)  
   
-╰─$ git fetch upstream should now fetch the latest from your master/branch (upstream) 
-╰─$ git merge upstream/master automatically merge in case of non-conflicts  
+╰─$ `git fetch upstream` should now fetch the latest from your master/branch (upstream)  
+╰─$ `git merge upstream/master` automatically merge in case of non-conflicts  
   
 ### Commit  
   
 Commit to your local repo and push the changes to github  
 
-╰─$ git add . Will add all changed files to staging  
-╰─$ git status Will show status of file changes  
-╰─$ git commit -m "<merge comment>" Ensure you have clear comment of the changes you did  
-╰─$ git push Ensure you push to github  
+╰─$ `git add .` Will add all changed files to staging  
+╰─$ `git status` Will show status of file changes  
+╰─$ `git commit -m "<merge comment>"` Ensure you have clear comment of the changes you did  
+╰─$ `git push` Ensure you push to github  
