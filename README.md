@@ -1,6 +1,9 @@
 # journey_builder
 mongo based journey builder built on spring boot
 
+## Run
+gradlew bootRun
+
 ## Swagger
 http://localhost:8080/swagger-ui.html
 
