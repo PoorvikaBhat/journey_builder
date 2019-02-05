@@ -31,7 +31,7 @@ origin	https://github.com/veeseekay/journey_builder.git (fetch)
 origin	https://github.com/veeseekay/journey_builder.git (push)  
 upstream	https://github.com/veeseekay/journey_builder.git (fetch)  
 upstream	https://github.com/veeseekay/journey_builder.git (push)  
-
+  
 ╰─$ git fetch upstream should now fetch the latest from your master/branch (upstream) 
 ╰─$ git merge upstream/master automatically merge in case of non-conflicts  
   
