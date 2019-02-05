@@ -2,6 +2,7 @@ package com.tfs.hackathon.loader.controllers;
 
 import com.tfs.hackathon.loader.entities.Journey;
 import com.tfs.hackathon.loader.repositories.JourneyRepository;
+import com.tfs.hackathon.loader.services.JourneyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +19,9 @@ public class JourneyController {
     @Autowired
     private JourneyRepository journeyRepository;
 
-
+    @Autowired
+    private JourneyService journeyService;
+    
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<Journey> getAllJourneys() {
         return journeyRepository.findAll();
